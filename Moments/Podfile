@@ -3,6 +3,10 @@ source 'https://cdn.cocoapods.org/'
 
 platform :ios, '14.0'
 
+def dev_pods
+  pod 'SwiftLint', '= 0.42.0', configurations: ['Debug']
+end
+
 def core_pods
 
  pod 'RxSwift', '= 6.5.0'
@@ -15,7 +19,8 @@ end
 
 target 'Moments' do
   use_frameworks!
-
+  
+  dev_pods
   core_pods
   
   
