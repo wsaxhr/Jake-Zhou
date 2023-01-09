@@ -1,0 +1,7 @@
+#include "../Moments/Pods/Target Support Files/Pods-Moments/Pods-Moments.debug.xcconfig"
+#include "BaseTarget.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited) α
+PRODUCT_BUNDLE_IDENTIFIER = com.jakezhou.moments.development
+FIREBASE_CONFIG_FILENAME = GoogleService-Info-Development
+

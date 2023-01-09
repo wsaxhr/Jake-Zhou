@@ -1,0 +1,7 @@
+#include "../Moments/Pods/Target Support Files/Pods-Moments/Pods-Moments.appstore.xcconfig"
+#include "BaseTarget.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited)
+PRODUCT_BUNDLE_IDENTIFIER = com.jakezhou.moments
+FIREBASE_CONFIG_FILENAME = GoogleService-Info-AppStore
+

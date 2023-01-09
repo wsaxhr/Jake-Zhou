@@ -1,0 +1,11 @@
+//
+//  BaseConfigurations.xcconfig
+//  Moments
+//
+//  Created by Abel on 2023/1/9.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = sj.yffshun.cn
