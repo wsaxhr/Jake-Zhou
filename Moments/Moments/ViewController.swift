@@ -8,14 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         testEnv()
-        
     }
-    
     func testEnv() {
         #if DEBUG
         view.backgroundColor = .red
@@ -25,7 +21,4 @@ class ViewController: UIViewController {
         view.backgroundColor = .green
         #endif
     }
-
-
 }
-
